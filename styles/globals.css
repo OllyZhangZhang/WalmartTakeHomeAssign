@@ -1,0 +1,142 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wholePage {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.infoBar {
+  padding-top: 30px;
+}
+
+.Orders{
+  margin-top: 5%;
+  overflow-x: scroll;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline { 
+  display: inline-block; 
+}
+
+.toggle {
+  float: right;
+}
+
+table {
+  align-self: center;
+  border: 3px solid #9e9898;
+  border-radius: 15px;
+  border-spacing: 0px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: scroll;
+}
+
+tr,td {
+  border-bottom: 2px solid #9e9898;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table th{
+  border-bottom: 3px solid #9e9898;
+}
+
+table tr:last-child {
+  border-bottom: none;
+}
+
+table td {
+  text-align: center; 
+  vertical-align: middle;
+}
+
+Switch {
+  background-color: "#3e3e3e"
+}
+
+.MuiSwitch-track {
+  color: rgb(0, 113, 220) !important;
+}
+
+.chakra-modal__content-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  top: 20% !important;
+}
+
+button.chakra-modal__close-btn {
+  width: 10px;
+  border: none;
+  background-color: white;
+  position: absolute; 
+  right: 5px;
+}
+
+.chakra-portal {
+  overflow: 'scroll'
+}
+
+.chakra-modal__content{
+    background-color: white;
+    width: 60% !important;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.modalBox{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.box {
+  margin-top: 20px;
+  overflow-x:auto;
+  white-space: nowrap;
+}
+
+
+.product {
+  padding-right: 5px;
+  padding-top:10px;
+  width: 200px;
+  height: 300px;
+  display: inline-block;
+  white-space: normal;
+}
+
+.totalPrice {
+  float: right;
+}
+
+.productImage {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  padding: 5px;
+}
